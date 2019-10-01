@@ -7,9 +7,10 @@ spring:
   profiles: dev
   application:
     name: dev
-info: info
+info: dev
 ---
 spring:
   profiles: test
   application:
     name: test
+info: test
